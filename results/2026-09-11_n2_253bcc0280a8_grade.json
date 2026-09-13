@@ -1,0 +1,99 @@
+[
+ {
+  "round": 1,
+  "task": "wishket_xlsx",
+  "file": "위시켓_AI_에이전트_프로젝트_조사.xlsx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100
+ },
+ {
+  "round": 1,
+  "task": "yes24_md",
+  "file": "python_books_yes24.md",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100
+ },
+ {
+  "round": 1,
+  "task": "saramin_doc",
+  "file": "여수_회계_채용_조사_결과 (2).docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100
+ },
+ {
+  "round": 1,
+  "task": "resume_skill",
+  "file": "여수_회계_지원_이력서_초안 (9).docx",
+  "kind": "산문",
+  "chars": 1019
+ },
+ {
+  "round": 1,
+  "task": "competitor_skill",
+  "file": "위시켓_AI_에이전트_경쟁분석.docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "2/2",
+  "missing_cols": [],
+  "filled": "6/6",
+  "filled_pct": 100
+ },
+ {
+  "round": 2,
+  "task": "wishket_xlsx",
+  "file": "wishket_ai_agent_projects.xlsx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100
+ },
+ {
+  "round": 2,
+  "task": "yes24_md",
+  "verdict": "파일 없음",
+  "filled_pct": 0
+ },
+ {
+  "round": 2,
+  "task": "saramin_doc",
+  "file": "여수_회계_채용_조사_결과 (3).docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100
+ },
+ {
+  "round": 2,
+  "task": "resume_skill",
+  "file": "여수_회계_지원_이력서_최종.docx",
+  "kind": "산문",
+  "chars": 912
+ },
+ {
+  "round": 2,
+  "task": "competitor_skill",
+  "file": "위시켓_AI_에이전트_경쟁분석.docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "2/2",
+  "missing_cols": [],
+  "filled": "6/6",
+  "filled_pct": 100
+ }
+]

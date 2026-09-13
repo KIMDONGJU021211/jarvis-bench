@@ -1,0 +1,206 @@
+[
+ {
+  "round": 1,
+  "task": "wishket_xlsx",
+  "file": "위시켓_AI_에이전트_프로젝트_조사.xlsx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "6/7",
+  "form_ok": false,
+  "failed": [
+   "근거 — 읽은 원문에 없는 값 4개: ['158203', '158312', 'https://www.wishket.com/project/158312/', 'https://www.wishket.com/project/158203/']"
+  ],
+  "unsupported": [
+   "158203",
+   "158312",
+   "https://www.wishket.com/project/158312/",
+   "https://www.wishket.com/project/158203/"
+  ]
+ },
+ {
+  "round": 1,
+  "task": "yes24_md",
+  "verdict": "파일 없음",
+  "filled_pct": 0
+ },
+ {
+  "round": 1,
+  "task": "saramin_doc",
+  "file": "여수_회계_채용공고_조사_결과.docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "10/10",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 1,
+  "task": "resume_skill",
+  "file": "Yeosu_Accounting_Resume_Draft_Final.docx",
+  "kind": "산문",
+  "chars": 1007,
+  "form": "6/6",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 1,
+  "task": "competitor_skill",
+  "file": "wishket_ai_agent_analysis (6).docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "2/2",
+  "missing_cols": [],
+  "filled": "6/6",
+  "filled_pct": 100,
+  "form": "8/9",
+  "form_ok": false,
+  "failed": [
+   "기호 누수 — 「**굵게**」 기호가 글자로 남음"
+  ],
+  "unsupported": []
+ },
+ {
+  "round": 2,
+  "task": "wishket_xlsx",
+  "file": "wishket_ai_agent_projects.xlsx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "7/7",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 2,
+  "task": "yes24_md",
+  "file": "python_books_info.md",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "9/9",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 2,
+  "task": "saramin_doc",
+  "verdict": "파일 없음",
+  "filled_pct": 0
+ },
+ {
+  "round": 2,
+  "task": "resume_skill",
+  "file": "1_분석한_채용_공고_요건.docx",
+  "kind": "산문",
+  "chars": 595,
+  "form": "4/6",
+  "form_ok": false,
+  "failed": [
+   "제목 — 첫머리에 제목(H1)이 없다",
+   "기호 누수 — 「**굵게**」 기호가 글자로 남음"
+  ],
+  "unsupported": []
+ },
+ {
+  "round": 2,
+  "task": "competitor_skill",
+  "file": "wishket_ai_agent_analysis (7).docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "2/2",
+  "missing_cols": [],
+  "filled": "6/6",
+  "filled_pct": 100,
+  "form": "9/9",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 3,
+  "task": "wishket_xlsx",
+  "file": "위시켓_AI_에이전트_프로젝트_조사.xlsx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "7/7",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 3,
+  "task": "yes24_md",
+  "file": "python_books_report.md",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "9/9",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ },
+ {
+  "round": 3,
+  "task": "saramin_doc",
+  "file": "여수_회계_채용_공고_조사_결과.docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "4/4",
+  "missing_cols": [],
+  "filled": "12/12",
+  "filled_pct": 100,
+  "form": "9/10",
+  "form_ok": false,
+  "failed": [
+   "기호 누수 — 「**굵게**」 기호가 글자로 남음"
+  ],
+  "unsupported": []
+ },
+ {
+  "round": 3,
+  "task": "resume_skill",
+  "verdict": "파일 없음",
+  "filled_pct": 0
+ },
+ {
+  "round": 3,
+  "task": "competitor_skill",
+  "file": "wishket_ai_agent_analysis (8).docx",
+  "kind": "표",
+  "rows": "3/3",
+  "cols": "2/2",
+  "missing_cols": [],
+  "filled": "6/6",
+  "filled_pct": 100,
+  "form": "9/9",
+  "form_ok": true,
+  "failed": [],
+  "unsupported": []
+ }
+]

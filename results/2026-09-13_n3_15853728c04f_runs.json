@@ -1,0 +1,935 @@
+[
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 관련 프로젝트 3개를 조사해서 엑셀로 정리해줘. 프로젝트명·예상기간·지원자수·공고 URL 을 표로 넣어줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 87.6,
+  "queued_sec": 0.2,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 529,
+  "answer_head": "위시켓에서 'AI 에이전트' 관련 프로젝트 3개를 조사하여 엑셀 파일로 정리했습니다.\n\n**[조사 결과 요약]**\n\n| 프로젝트명 | 예상기간 | 지원자수 | 공고 URL |\n| :--- | :--- | :--- | :--- |\n| Python /멀티 에이전트 이용 포탈 백엔드 개발 | 120일 | 1명 | [바로가기](",
+  "round": 1,
+  "task": "wishket_xlsx",
+  "job": "a3565596",
+  "files": [
+   "위시켓_AI_에이전트_프로젝트_조사.xlsx"
+  ],
+  "kept": [
+   "위시켓_AI_에이전트_프로젝트_조사.xlsx"
+  ],
+  "format_ok": true,
+  "chars": 270,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 7,
+  "unsupported": [],
+  "tool_sec": 23.0,
+  "wall_sec": 90.9
+ },
+ {
+  "group": "web",
+  "prompt": "YES24에서 파이썬 책 3권의 쪽수와 ISBN 을 조사해서 마크다운 문서로 만들어줘. 상세페이지 URL 도 같이 넣어줘.",
+  "expect_host": "yes24.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 222.5,
+  "queued_sec": 0.1,
+  "steps": 15,
+  "tools": [
+   "browser_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 14,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 875,
+  "answer_head": "YES24에서 파이썬 관련 도서 3권을 조사하라는 요청을 수행했습니다.\n\n조사 결과, 상세 페이지를 직접 열어 쪽수와 ISBN 정보를 모두 확인한 도서는 **2건**입니다. 나머지 1건은 상세 페이지를 열었으나 해당 정보(쪽수, ISBN)를 포함한 본문 내용을 읽어내는 데 실패하여 결과에서 제외했습니다.\n\n# YES24 ",
+  "round": 1,
+  "task": "yes24_md",
+  "job": "c1592140",
+  "files": [
+   "python_books_survey.md"
+  ],
+  "kept": [
+   "python_books_survey.md"
+  ],
+  "format_ok": true,
+  "chars": 302,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 3,
+  "unsupported": [],
+  "tool_sec": 21.6,
+  "wall_sec": 228.8
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 3개를 조사해서 문서로 정리해줘. 회사명·고용형태·마감일·공고 URL 을 표로 넣어줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 434.8,
+  "queued_sec": 0.2,
+  "steps": 21,
+  "tools": [
+   "site_list",
+   "site_run",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 21,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 12,
+  "flagged_shortfall": false,
+  "answer_chars": 848,
+  "answer_head": "사람인에서 '여수 회계'로 검색하여 직접 상세 내용을 확인한 결과, 요청하신 조건(여수 지역, 회계 직무)을 모두 만족하는 공고는 1건이었습니다. 나머지 검색 결과는 근무지가 광주, 해남, 서울 등 타 지역이거나 직무가 사무행정/경영지원인 것으로 확인되었습니다.\n\n요청하신 3개를 모두 채우지 못해, 확인된 1건의 공고만 ",
+  "round": 1,
+  "task": "saramin_doc",
+  "job": "fbee7613",
+  "files": [
+   "정리.docx"
+  ],
+  "kept": [
+   "정리.docx"
+  ],
+  "format_ok": true,
+  "chars": 1063,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 8,
+  "unsupported": [],
+  "tool_sec": 36.9,
+  "wall_sec": 439.0
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 2개를 보고, 거기 지원할 이력서 초안을 문서로 만들어줘. 공고가 요구하는 자격을 반영해줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 311.1,
+  "queued_sec": 0.1,
+  "steps": 18,
+  "tools": [
+   "site_run",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_find",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_find",
+   "browser_find",
+   "browser_open_result",
+   "browser_extract",
+   "browser_find",
+   "local_write_document"
+  ],
+  "tools_ok": 18,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": true,
+  "answer_chars": 1307,
+  "answer_head": "사람인에서 여수 지역 회계 채용 공고를 조사한 결과, 요청하신 2건의 공고를 모두 확인하였으며, 그 중 **(주)비케이에너지**의 요구사항을 반영한 이력서 초안을 작성했습니다.\n\n### 📋 조사 결과 요약\n| 순위 | 회사명 | 공고명 | 주요 자격 요건 | 상태 |\n| :--- | :--- | :--- | :--- | ",
+  "round": 1,
+  "task": "resume_skill",
+  "job": "ff7f0553",
+  "files": [
+   "비케이에너지_회계_이력서_초안.docx"
+  ],
+  "kept": [
+   "비케이에너지_회계_이력서_초안.docx"
+  ],
+  "format_ok": true,
+  "chars": 941,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 0,
+  "unsupported": [],
+  "tool_sec": 27.1,
+  "wall_sec": 312.9
+ },
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 개발 프로젝트 3개를 조사해서 경쟁 분석 문서로 정리해줘. 어떤 기술 스택이 자주 요구되는지 정리해줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 82.2,
+  "queued_sec": 0.1,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 1003,
+  "answer_head": "위시켓에서 'AI 에이전트 개발' 프로젝트 3건을 조사하여 기술 스택 및 주요 요구사항을 분석한 결과입니다. 상세 내용은 첨부된 워드 파일(`wishket_ai_agent_analysis.docx`)에 정리해 두었습니다.\n\n### 1. 프로젝트 조사 결과 요약\n\n| 프로젝트명 | 주요 업무 | 예상 기간 | 예상 월 급여",
+  "round": 1,
+  "task": "competitor_skill",
+  "job": "da4ccf36",
+  "files": [
+   "wishket_ai_agent_analysis.docx"
+  ],
+  "kept": [
+   "wishket_ai_agent_analysis.docx"
+  ],
+  "format_ok": true,
+  "chars": 521,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "competitors"
+  ],
+  "answer_numbers": 5,
+  "unsupported": [],
+  "tool_sec": 19.2,
+  "wall_sec": 84.4
+ },
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 관련 프로젝트 3개를 조사해서 엑셀로 정리해줘. 프로젝트명·예상기간·지원자수·공고 URL 을 표로 넣어줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 61.7,
+  "queued_sec": 0.0,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 527,
+  "answer_head": "위시켓에서 'AI 에이전트' 관련 프로젝트 3개를 조사하여 엑셀 파일로 정리했습니다.\n\n**[조사 결과 요약]**\n\n| 프로젝트명 | 예상기간 | 지원자수 | 공고 URL |\n| :--- | :--- | :--- | :--- |\n| Python /멀티 에이전트 이용 포탈 백엔드 개발 | 120일 | 1명 | [바로가기](",
+  "round": 2,
+  "task": "wishket_xlsx",
+  "job": "35a8ed31",
+  "files": [
+   "위시켓_AI_에이전트_프로젝트_조사.xlsx"
+  ],
+  "kept": [
+   "위시켓_AI_에이전트_프로젝트_조사.xlsx"
+  ],
+  "format_ok": true,
+  "chars": 270,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 7,
+  "unsupported": [],
+  "tool_sec": 18.1,
+  "wall_sec": 66.4
+ },
+ {
+  "group": "web",
+  "prompt": "YES24에서 파이썬 책 3권의 쪽수와 ISBN 을 조사해서 마크다운 문서로 만들어줘. 상세페이지 URL 도 같이 넣어줘.",
+  "expect_host": "yes24.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 315.7,
+  "queued_sec": 0.2,
+  "steps": 32,
+  "tools": [
+   "browser_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_open",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 31,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 10,
+  "flagged_shortfall": false,
+  "answer_chars": 789,
+  "answer_head": "YES24에서 파이썬 관련 도서 3권을 조사하여 마크다운 문서로 작성했습니다.\n\n조사 결과, 요청하신 조건(파이썬 관련 도서)을 충족하는 도서 중 상세 페이지 본문에서 쪽수와 ISBN을 모두 확인할 수 있는 도서는 총 3권입니다.\n\n**조사 결과 요약**\n* **확인된 도서:** 3권\n* **확인 불가:** 0권\n\n작성된",
+  "round": 2,
+  "task": "yes24_md",
+  "job": "49324b73",
+  "files": [
+   "python_books_yes24.md"
+  ],
+  "kept": [
+   "python_books_yes24.md"
+  ],
+  "format_ok": true,
+  "chars": 397,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 6,
+  "unsupported": [],
+  "tool_sec": 52.7,
+  "wall_sec": 319.1
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 3개를 조사해서 문서로 정리해줘. 회사명·고용형태·마감일·공고 URL 을 표로 넣어줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 343.9,
+  "queued_sec": 0.2,
+  "steps": 9,
+  "tools": [
+   "site_list",
+   "site_run",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 4,
+  "flagged_shortfall": false,
+  "answer_chars": 904,
+  "answer_head": "사람인에서 '여수 회계' 키워드로 검색된 공고 중, 요청하신 조건(여수 지역, 회계 직무)을 충족하는 공고를 조사한 결과입니다.\n\n# 여수 회계 채용 공고 조사 결과\n\n검색된 상위 3개 공고를 모두 확인하였으나, 요청하신 **'여수 지역'** 및 **'회계 직무'** 조건을 모두 만족하는 공고는 **1건**이었습니다.\n\n",
+  "round": 2,
+  "task": "saramin_doc",
+  "job": "c0ab445b",
+  "files": [
+   "여수_회계_채용_공고_조사_결과.docx"
+  ],
+  "kept": [
+   "여수_회계_채용_공고_조사_결과.docx"
+  ],
+  "format_ok": true,
+  "chars": 1017,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 10,
+  "unsupported": [],
+  "tool_sec": 15.7,
+  "wall_sec": 349.0
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 2개를 보고, 거기 지원할 이력서 초안을 문서로 만들어줘. 공고가 요구하는 자격을 반영해줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 354.2,
+  "queued_sec": 0.2,
+  "steps": 10,
+  "tools": [
+   "site_run",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 10,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": true,
+  "answer_chars": 2140,
+  "answer_head": "여수 지역의 회계 채용 공고 2곳을 확인했습니다. 공고에서 요구하는 핵심 자격 요건(경력, 문서 작성 능력, 엑셀/PPT 활용 등)을 반영하여 작성한 이력서 초안입니다.\n\n**[확인된 공고 정보]**\n1. **(주)비케이에너지 (여수본사):** 경력 3년 이상, 문서 작성 및 PPT 활용 능력 우수자 우대.\n2. **라마",
+  "round": 2,
+  "task": "resume_skill",
+  "job": "6f33a4bf",
+  "files": [
+   "1_채용_공고_요약.docx"
+  ],
+  "kept": [
+   "1_채용_공고_요약.docx"
+  ],
+  "format_ok": true,
+  "chars": 1269,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 0,
+  "unsupported": [],
+  "tool_sec": 19.3,
+  "wall_sec": 355.0
+ },
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 개발 프로젝트 3개를 조사해서 경쟁 분석 문서로 정리해줘. 어떤 기술 스택이 자주 요구되는지 정리해줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 121.7,
+  "queued_sec": 0.2,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 1100,
+  "answer_head": "위시켓에서 'AI 에이전트 개발' 프로젝트 3건을 조사하여 경쟁 분석 보고서를 작성하였습니다.\n\n### 📊 위시켓 AI 에이전트 프로젝트 경쟁 분석 결과\n\n| 프로젝트명 | 주요 업무 내용 | 예상 기간 | 예상 월 급여 | 주요 기술 스택 |\n| :--- | :--- | :---: | :---: | :--- |\n| **",
+  "round": 2,
+  "task": "competitor_skill",
+  "job": "17b70129",
+  "files": [
+   "위시켓_AI_에이전트_경쟁분석.docx"
+  ],
+  "kept": [
+   "위시켓_AI_에이전트_경쟁분석.docx"
+  ],
+  "format_ok": true,
+  "chars": 638,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "competitors"
+  ],
+  "answer_numbers": 5,
+  "unsupported": [],
+  "tool_sec": 21.7,
+  "wall_sec": 126.5
+ },
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 관련 프로젝트 3개를 조사해서 엑셀로 정리해줘. 프로젝트명·예상기간·지원자수·공고 URL 을 표로 넣어줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 63.0,
+  "queued_sec": 0.2,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 537,
+  "answer_head": "위시켓에서 'AI 에이전트' 관련 프로젝트 3개를 조사하여 엑셀 파일로 정리했습니다.\n\n**[조사 결과 요약]**\n\n| 프로젝트명 | 예상기간 | 지원자수 | 공고 URL |\n| :--- | :--- | :--- | :--- |\n| Python /멀티 에이전트 이용 포탈 백엔드 개발 | 120일 | 1명 | [바로가기](",
+  "round": 3,
+  "task": "wishket_xlsx",
+  "job": "19ae358b",
+  "files": [
+   "wishket_ai_agent_projects.xlsx"
+  ],
+  "kept": [
+   "wishket_ai_agent_projects.xlsx"
+  ],
+  "format_ok": true,
+  "chars": 270,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 7,
+  "unsupported": [],
+  "tool_sec": 18.2,
+  "wall_sec": 66.5
+ },
+ {
+  "group": "web",
+  "prompt": "YES24에서 파이썬 책 3권의 쪽수와 ISBN 을 조사해서 마크다운 문서로 만들어줘. 상세페이지 URL 도 같이 넣어줘.",
+  "expect_host": "yes24.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 262.7,
+  "queued_sec": 0.2,
+  "steps": 21,
+  "tools": [
+   "browser_search",
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 21,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 8,
+  "flagged_shortfall": false,
+  "answer_chars": 678,
+  "answer_head": "YES24에서 파이썬 책 3권의 정보를 조사하라는 요청을 수행하였습니다.\n\n검색 결과 중 상세 페이지를 통해 '파이썬' 관련 정보를 직접 확인한 도서는 **'Do it! 점프 투 파이썬' 1건**이었습니다. 나머지 검색 결과는 공무원 수험서, 일반 도서(테오, 필사 노트 등)로 확인되어 요청하신 '파이썬 책' 조건에 부합",
+  "round": 3,
+  "task": "yes24_md",
+  "job": "6c84b3c3",
+  "files": [
+   "python_books_report.md"
+  ],
+  "kept": [
+   "python_books_report.md"
+  ],
+  "format_ok": true,
+  "chars": 252,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 3,
+  "unsupported": [],
+  "tool_sec": 32.9,
+  "wall_sec": 264.8
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 3개를 조사해서 문서로 정리해줘. 회사명·고용형태·마감일·공고 URL 을 표로 넣어줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 585.6,
+  "queued_sec": 0.1,
+  "steps": 20,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract"
+  ],
+  "tools_ok": 20,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 12,
+  "flagged_shortfall": false,
+  "answer_chars": 35253,
+  "answer_head": "thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>thought\n<channel|>",
+  "round": 3,
+  "task": "saramin_doc",
+  "job": "d535b32c",
+  "files": [],
+  "kept": [],
+  "format_ok": false,
+  "chars": 0,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [],
+  "chain_ok": false,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 0,
+  "unsupported": [],
+  "tool_sec": 38.9,
+  "wall_sec": 589.3
+ },
+ {
+  "group": "web",
+  "prompt": "사람인에서 여수 회계 채용 공고 2개를 보고, 거기 지원할 이력서 초안을 문서로 만들어줘. 공고가 요구하는 자격을 반영해줘.",
+  "expect_host": "saramin.co.kr",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 332.4,
+  "queued_sec": 0.1,
+  "steps": 10,
+  "tools": [
+   "site_run",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 10,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": true,
+  "answer_chars": 2160,
+  "answer_head": "여수 지역의 회계 채용 공고 2곳을 분석하여, 해당 공고들의 핵심 요구사항(정산 업무, 문서 작성 및 PPT 활용 능력)을 반영한 이력서 초안을 작성했습니다.\n\n### 🔍 분석한 채용 공고 요약\n1. **(주)비케이에너지 (여수본사)**\n   - **주요 요건:** 경력 3년 이상, 문서 작성 및 PPT 활용 능력 우수자",
+  "round": 3,
+  "task": "resume_skill",
+  "job": "0a703270",
+  "files": [
+   "1_채용_공고_요약.docx"
+  ],
+  "kept": [
+   "1_채용_공고_요약.docx"
+  ],
+  "format_ok": true,
+  "chars": 1085,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 0,
+  "unsupported": [],
+  "tool_sec": 18.7,
+  "wall_sec": 336.9
+ },
+ {
+  "group": "web",
+  "prompt": "위시켓에서 AI 에이전트 개발 프로젝트 3개를 조사해서 경쟁 분석 문서로 정리해줘. 어떤 기술 스택이 자주 요구되는지 정리해줘.",
+  "expect_host": "wishket.com",
+  "build": "15853728c04f",
+  "status": "completed",
+  "elapsed_sec": 88.3,
+  "queued_sec": 0.2,
+  "steps": 9,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 9,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 5,
+  "flagged_shortfall": false,
+  "answer_chars": 1138,
+  "answer_head": "위시켓에서 'AI 에이전트 개발' 관련 프로젝트 3건을 조사하여 분석한 결과입니다. 상세 내용은 첨부된 워드 파일(`wishket_ai_agent_analysis.docx`)에 정리해 두었습니다.\n\n### **1. 프로젝트 조사 결과 요약**\n\n| 프로젝트명 | 주요 업무 | 예상 기간 | 예상 월 급여 | 주요 기술 스",
+  "round": 3,
+  "task": "competitor_skill",
+  "job": "c96590bc",
+  "files": [
+   "wishket_ai_agent_analysis.docx"
+  ],
+  "kept": [
+   "wishket_ai_agent_analysis.docx"
+  ],
+  "format_ok": true,
+  "chars": 825,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "competitors"
+  ],
+  "answer_numbers": 6,
+  "unsupported": [],
+  "tool_sec": 21.0,
+  "wall_sec": 90.6
+ }
+]

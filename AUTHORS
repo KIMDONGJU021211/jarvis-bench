@@ -1,0 +1,8 @@
+jarvis-bench is copyright 2026 Kim Dongju and Shim Bohyeon.
+
+Kim Dongju    (@KIMDONGJU021211)
+Shim Bohyeon  (@bohyeon1010)
+
+The runs here come from JARVIS, a local-first agent we build and use against
+live Korean job, commerce and book sites. The failures are ours, including the
+ones where the grader was the thing that was broken.

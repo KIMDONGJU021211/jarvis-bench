@@ -1,0 +1,315 @@
+[
+ {
+  "group": "web",
+  "prompt": "다나와에서 무선 마우스 인기 상품 3개를 조사해서 CSV 파일로 정리해줘. 상품명·가격·제조사·상품 URL 을 넣어줘.",
+  "expect_host": "danawa.com",
+  "build": "4e064a926b53",
+  "status": "completed",
+  "elapsed_sec": 331.4,
+  "queued_sec": 0.2,
+  "steps": 23,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document",
+   "browser_open_result",
+   "browser_extract"
+  ],
+  "tools_ok": 23,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 6,
+  "flagged_shortfall": true,
+  "answer_chars": 1130,
+  "answer_head": "다나와에서 무선 마우스 인기 상품을 조사한 결과, 직접 상세 페이지를 열어 내용을 확인한 상품은 총 4건입니다. 요청하신 3건을 모두 충족하여 CSV 파일로 정리하였습니다.\n\n**조사 결과 요약**\n* **확인된 상품 수:** 4건 (요청 3건 대비 1건 초과)\n* **조사 출처:** 다나와 (prod.danawa.com",
+  "round": 1,
+  "task": "danawa_csv",
+  "job": "990605dd",
+  "files": [
+   "danawa_wireless_mice.csv"
+  ],
+  "kept": [
+   "danawa_wireless_mice.csv"
+  ],
+  "format_ok": true,
+  "chars": 336,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 7,
+  "unsupported": [],
+  "tool_sec": 48.9,
+  "wall_sec": 336.9
+ },
+ {
+  "group": "web",
+  "prompt": "잡코리아에서 순천 사무직 채용 공고 3개를 조사해서 한글 문서로 정리해줘. 회사명·고용형태·마감일·공고 URL 을 표로 넣어줘.",
+  "expect_host": "jobkorea.co.kr",
+  "build": "4e064a926b53",
+  "status": "completed",
+  "elapsed_sec": 346.0,
+  "queued_sec": 0.2,
+  "steps": 23,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_load_more",
+   "local_write_document"
+  ],
+  "tools_ok": 23,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 8,
+  "flagged_shortfall": false,
+  "answer_chars": 1069,
+  "answer_head": "잡코리아에서 '순천 사무직'을 검색하여 상세 내용을 확인한 결과, 요청하신 조건(순천 지역, 사무직)을 모두 만족하는 공고는 총 2건입니다.\n\n**[조사 결과 요약]**\n* **확인된 공고:** 2건\n* **미달 사유:** \n    * 쿠팡로지스틱스서비스: 근무지가 서울 강남구로 확인되어 제외하였습니다.\n    * 삼성생",
+  "round": 1,
+  "task": "jobkorea_hwpx",
+  "job": "54d20c33",
+  "files": [
+   "순천_사무직_채용_조사_결과.hwpx"
+  ],
+  "kept": [
+   "순천_사무직_채용_조사_결과.hwpx"
+  ],
+  "format_ok": true,
+  "chars": 479,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "career-job-search"
+  ],
+  "answer_numbers": 6,
+  "unsupported": [],
+  "tool_sec": 35.4,
+  "wall_sec": 348.7
+ },
+ {
+  "group": "web",
+  "prompt": "알라딘에서 데이터 분석 책 3권을 조사해서 워드 문서로 만들어줘. 저자·출판사·정가·상세페이지 URL 을 표로 넣어줘.",
+  "expect_host": "aladin.co.kr",
+  "build": "4e064a926b53",
+  "status": "completed",
+  "elapsed_sec": 381.2,
+  "queued_sec": 0.1,
+  "steps": 22,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_load_more",
+   "browser_scroll",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_load_more",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 22,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 8,
+  "flagged_shortfall": false,
+  "answer_chars": 860,
+  "answer_head": "알라딘에서 데이터 분석 관련 도서 3권을 조사하라는 요청에 대해, 직접 확인이 가능한 2권의 정보를 정리하여 워드 문서로 작성했습니다.\n\n**[조사 결과 요약]**\n*   **조사 완료 건수:** 2건 (요청 3건 중 1건 누락)\n*   **누락 사유:** \n    *   1건은 상세 페이지 진입 시 회원가입 페이지로 리",
+  "round": 1,
+  "task": "aladin_docx",
+  "job": "b8bfbcfa",
+  "files": [
+   "알라딘_데이터_분석_도서_조사_결과.docx"
+  ],
+  "kept": [
+   "알라딘_데이터_분석_도서_조사_결과.docx"
+  ],
+  "format_ok": true,
+  "chars": 525,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 4,
+  "unsupported": [],
+  "tool_sec": 34.0,
+  "wall_sec": 385.1
+ },
+ {
+  "group": "web",
+  "prompt": "무신사에서 남성 반팔 티셔츠 인기 상품 3개를 조사해서 엑셀로 정리해줘. 브랜드·상품명·가격·상품 URL 을 넣어줘.",
+  "expect_host": "musinsa.com",
+  "build": "4e064a926b53",
+  "status": "completed",
+  "elapsed_sec": 93.7,
+  "queued_sec": 0.1,
+  "steps": 11,
+  "tools": [
+   "browser_open",
+   "browser_site_search",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "browser_open_result",
+   "browser_extract",
+   "local_write_document"
+  ],
+  "tools_ok": 11,
+  "no_tools": false,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": true,
+  "source_count": 6,
+  "flagged_shortfall": false,
+  "answer_chars": 575,
+  "answer_head": "무신사에서 남성 반팔 티셔츠 인기 상품 3개를 조사하여 엑셀 파일로 정리했습니다.\n\n**[조사 결과 요약]**\n\n| 브랜드 | 상품명 | 가격 | 상품 URL |\n| :--- | :--- | :--- | :--- |\n| 와일드락 | 와일드 레코즈 온 반팔 티셔츠_블랙 | 11,900원 | [바로가기](https://www",
+  "round": 1,
+  "task": "musinsa_xlsx",
+  "job": "12e60638",
+  "files": [
+   "무신사_남성_반팔_티셔츠_인기상품.xlsx"
+  ],
+  "kept": [
+   "무신사_남성_반팔_티셔츠_인기상품.xlsx"
+  ],
+  "format_ok": true,
+  "chars": 274,
+  "read_used": [
+   "browser_extract",
+   "browser_open_result",
+   "browser_site_search"
+  ],
+  "write_used": [
+   "local_write_document"
+  ],
+  "chain_ok": true,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 6,
+  "unsupported": [],
+  "tool_sec": 23.8,
+  "wall_sec": 96.7
+ },
+ {
+  "group": "web",
+  "prompt": "교보문고와 YES24에서 '혼자 공부하는 파이썬' 책의 판매가와 쪽수를 각각 확인해서 비교하는 마크다운 문서로 만들어줘. 사이트별 상세페이지 URL 도 넣어줘.",
+  "expect_host": "kyobobook.co.kr",
+  "build": "4e064a926b53",
+  "status": "waiting_approval",
+  "elapsed_sec": 901.5,
+  "queued_sec": 0.2,
+  "steps": 0,
+  "tools": [],
+  "tools_ok": 0,
+  "no_tools": true,
+  "used_inhouse": false,
+  "used_hover": false,
+  "hover_revealed": 0,
+  "reached_host": false,
+  "source_count": 0,
+  "flagged_shortfall": false,
+  "answer_chars": 0,
+  "answer_head": "",
+  "round": 1,
+  "task": "kyobo_yes24_md",
+  "job": "00fbfb12",
+  "files": [],
+  "kept": [],
+  "format_ok": false,
+  "chars": 0,
+  "read_used": [],
+  "write_used": [],
+  "chain_ok": false,
+  "skills": [
+   "document-craft"
+  ],
+  "answer_numbers": 0,
+  "unsupported": [],
+  "tool_sec": 0.0,
+  "wall_sec": 901.7
+ }
+]
