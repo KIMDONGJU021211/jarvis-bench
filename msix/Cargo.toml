@@ -1,0 +1,10 @@
+[package]
+name = "jarvis_msix_probe"
+version = "0.1.0"
+edition = "2021"
+description = "MSIX 안에서 자비스가 기대는 OS 동작(파일 가상화·자식 프로세스·루프백)을 재는 1회용 점검기"
+
+[dependencies]
+
+[profile.release]
+opt-level = "s"

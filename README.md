@@ -40,7 +40,10 @@ Most defects found were in our wiring and our graders, not in the model.
 results/   raw runs (_runs.json) and grades (_grade.json), named date_samplesize_build
 bench/     multiturn_bench.py · content_grade.py · doc_form.py
 docs/      method · results · mismeasurements (Korean)
+msix/      what a full-trust desktop agent can still do inside MSIX (file virtualization, child processes, loopback) — probe + measured table
 ```
+
+2026-09-15 additions: a usage-limit takeover run on a fresh profile, **including the step that failed** (a "list remaining tasks only" handoff that ran 239.5 s and wrote a file), and six more entries in the mismeasurement log — one of them a shell that was measuring AppData from inside another app's MSIX sandbox.
 
 The runner talks to a local JARVIS instance, so runs cannot be reproduced without it. The graders only need files. Number normalisation comes from [evidence-ledger](https://github.com/KIMDONGJU021211/evidence-ledger).
 

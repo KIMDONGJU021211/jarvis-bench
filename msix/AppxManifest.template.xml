@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MSIX probe manifest. prepare.ps1 fills {{...}}. A = default (file-write virtualization on),
+     B = virtualization disabled via desktop6 + unvirtualizedResources (restricted; Store approval needed). -->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6"
+  IgnorableNamespaces="uap rescap desktop desktop6">
+  <Identity Name="JarvisBench.MsixProbe{{VARIANT}}" Publisher="CN=JarvisBench" Version="0.1.0.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>MSIX Probe {{VARIANT}}</DisplayName>
+    <PublisherDisplayName>jarvis-bench</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    {{WRITE_VIRTUALIZATION}}
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="Probe" Executable="jarvis_msix_probe.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="MSIX Probe {{VARIANT}}" Description="MSIX virtualization probe"
+        BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" />
+      <Extensions>
+        <desktop:Extension Category="windows.startupTask" Executable="jarvis_msix_probe.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="ProbeStartup{{VARIANT}}" Enabled="false" DisplayName="MSIX Probe {{VARIANT}}" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+    {{UNVIRTUALIZED_CAP}}
+  </Capabilities>
+</Package>

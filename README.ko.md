@@ -43,6 +43,7 @@ bench/     multiturn_bench.py  판을 돌리고 장부에서 사슬·파일·근
            content_grade.py    표 칸이 시킨 만큼 찼나
            doc_form.py         문서 양식 + 파일 속 숫자·주소가 그 판에서 실제로 읽은 원문에 있나
 docs/      방법 · 결과 · 눈금이 틀린 기록
+msix/      MSIX 안에서 데스크톱 에이전트가 기대는 것(파일 가상화·자식 프로세스·루프백) 실측과 점검기
 ```
 
 벤치 코드는 로컬에서 도는 JARVIS 에 요청을 보내므로 JARVIS 없이는 판을 다시 돌릴 수 없다. 채점기(`content_grade.py`·
